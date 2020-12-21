@@ -1,2 +1,2 @@
-# rhebok-git.github.io
-rhebok website
+# GitHub Pages Website
+Go to rhebok-git.github.io
