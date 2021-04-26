@@ -4,17 +4,16 @@
 
 <head>
     <meta charset="utf-8">
-
     <title>rhebok, not the shoe brand</title>
     <meta name="description" content="Host website for rhebok's projects and games">
     <meta name="author" content="rhebok">
-
+    <link href="https://fonts.googleapis.com/css?family=JetBrains+Mono" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css?v=1.0">
 
 </head>
 
 <body>
-    <div>
+    <div id="main-page">
         <header>
             <hgroup>
                 <h1>rhebok's black pages</h1>
@@ -22,18 +21,34 @@
             </hgroup>
             <nav>
                 <ul>
-                    <li><a href="index.html">news and announcements</a></li>
+                    <li><a href="index.html" class="this-page">news and announcements</a></li>
+                    <li><a href="projects.html">projects</a></li>
+                    <li><a href="games.html">games</a></li>
                     <li><a href="about.html">about</a></li>
                 </ul>
             </nav>
         </header>
         
         <article>
-            <p>Eidetic Sweven demo soon<sup>tm</sup></p>
+            <h1><span class="article-tag">News</span>Test Article 1</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at ex sit amet dui pulvinar fermentum vitae non sem. Duis ligula arcu, ultrices vel euismod at, maximus et purus. Aenean libero justo, congue non vehicula vitae, fringilla id lacus. Maecenas pretium purus enim, sit amet viverra velit sollicitudin et. Aliquam auctor fringilla velit eget auctor. Maecenas aliquet massa mi, eget pretium sapien luctus mollis. Praesent hendrerit porttitor tortor non varius.</p>
+        </article>
+
+        <article>
+            <h1><span class="article-tag">Announcement</span>Test Article 2</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at ex sit amet dui pulvinar fermentum vitae non sem. Duis ligula arcu, ultrices vel euismod at, maximus et purus. Aenean libero justo, congue non vehicula vitae, fringilla id lacus. Maecenas pretium purus enim, sit amet viverra velit sollicitudin et. Aliquam auctor fringilla velit eget auctor. Maecenas aliquet massa mi, eget pretium sapien luctus mollis. Praesent hendrerit porttitor tortor non varius.</p>
+        </article>
+
+        <article>
+            <h1><span class="article-tag">Announcement</span>Test Article 3</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce at ex sit amet dui pulvinar fermentum vitae non sem. Duis ligula arcu, ultrices vel euismod at, maximus et purus. Aenean libero justo, congue non vehicula vitae, fringilla id lacus. Maecenas pretium purus enim, sit amet viverra velit sollicitudin et. Aliquam auctor fringilla velit eget auctor. Maecenas aliquet massa mi, eget pretium sapien luctus mollis. Praesent hendrerit porttitor tortor non varius.</p>
         </article>
 
         <footer>
-            <a href="https://github.com/rhebok-git">my github</a>
+            <div id="footer-links">
+                <a href="https://github.com/rhebok-git">my github</a>
+                <a href="https://rhebok.itch.io/">my itch.io page</a>
+            </div>
         </footer>
     </div>
     <script src="js/scripts.js"></script>
