@@ -51,7 +51,8 @@ nav > ul > li > a {
     font-size: 16px;
     border: thick solid #ededed;
     padding: 10px;
-    border-radius: 10px
+    border-radius: 10px;
+    transition: all 0.3s ease;
 }
 
 nav > ul > li > a:hover {
@@ -130,6 +131,7 @@ footer {
 
 #footer-links > a {
     margin-right: 15px;
+    transition: all 0.3s ease;
 }
 
 #footer-links > a:hover {
@@ -140,6 +142,7 @@ footer {
 a:link, a:visited{
 	color: #26c0b8;
 	text-decoration: none;
+    transition: all 0.3s ease;
 }
 
 abbr {
